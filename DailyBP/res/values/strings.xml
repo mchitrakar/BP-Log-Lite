@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DailyBP Log</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_rotated_view">Logs chart</string>
+    <string name="menu_about">About</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="menu_hint">Help</string>
+    <string name="title_activity_input">Add new log</string>
+    <string name="lbl_diastolic">"DIASTOLIC   (mmHg)"</string>
+    <string name="lbl_systolic">"SYSTOLIC    (mmHg)"</string>
+    <string name="lbl_heartrate">"PULSE(/min)"</string>
+    <string name="lbl_units_bp">mmHg</string>
+    <string name="lbl_units_rate">bpm</string>
+    <string name="btn_off">clear</string>
+    <string name="btn_on">cleared</string>
+    <string name="btn_ok">Okay</string>
+    <string name="btn_cancel">Clear</string>
+    <string name="hint_diastolic">Type lower BP number, normal below 80bpm</string>
+    <string name="hint_systolic">Type higher number, normal below 120bpm</string>
+    <string name="hint_heartrate">Type heart rate readings here </string>
+    <string name="title_activity_edit_data">Update logs</string>
+    <string name="btn_delete_last">"Remove last log"</string>
+    <string name="btn_delete_all">"Remove all"</string>
+    <string name="title_activity_about">About this product</string>
+    <string name="title_activity_list">List logs</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view_data">View logs</string>
+    <string name="main_add_new">" Add new log "</string>
+    <string name="main_edit_saved">" Remove logs "</string>
+    <string name="main_view_saved">" View logs "</string>
+    <string name="btn_view_list">" List "</string>
+    <string name="btn_view_chart">" Chart "</string>
+    <string name="lbl_datetime">"date"</string>
+    <string name="about_desc">The app helps you record your blood pressure and heart rate. Note - the app does not measure your BP or heart rate.</string>
+    
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fillcolor_screen" >
+
+        <EditText
+            android:id="@+id/edit_about"
+            android:layout_width="@dimen/Input_Txt_Wt1"
+            android:layout_height="@dimen/Input_Txt_Ht1"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="@dimen/Input_systolic_marginT1"
+            android:background="@drawable/fillcolor_edit"
+            android:ems="10"
+            android:inputType="number" />
+        
+        <EditText
+	        android:id="@+id/editText2"
+	        android:layout_width="@dimen/Input_Txt_Wt1"
+	        android:layout_height="@dimen/Input_Txt_Ht1"
+	        android:layout_alignLeft="@+id/textView1"
+	        android:layout_below="@+id/edit_about"
+	        android:layout_marginTop="@dimen/Input_diastolic_marginT1"
+	        android:background="@drawable/fillcolor_edit"
+	        android:ems="10"
+	        android:inputType="number" />
+        
+         <EditText
+	        android:id="@+id/editText3"
+            android:layout_width="@dimen/Input_Txt_Wt1"
+	        android:layout_height="@dimen/Input_Txt_Ht1"
+	        android:layout_alignLeft="@+id/textView1"
+	        android:layout_below="@+id/editText2"
+	        android:layout_marginTop="@dimen/Input_heartbeat_marginT1"
+	        android:background="@drawable/fillcolor_edit"
+	        android:ems="10"
+	        android:inputType="number" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/textView2"
+             android:layout_alignTop="@+id/editText2"
+             android:text="@string/lbl_diastolic" />
+
+         <TextView
+             android:id="@+id/textView4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/textView3"
+             android:layout_alignTop="@+id/editText3"
+             android:text="@string/lbl_heartrate" />
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="@dimen/Input_datetime_Wt1"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="@dimen/Input_datetime_marginT1"
+             android:contentDescription="@string/title_activity_input"
+             android:text="@string/lbl_datetime"
+             android:textSize="@dimen/input_date_Ht1" />
+
+           <TextView
+               android:id="@+id/textView2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignTop="@+id/edit_about"
+               android:layout_toRightOf="@+id/edit_about"
+                android:layout_marginLeft="10dip"
+               android:text="@string/lbl_systolic" />
+
+           <Button
+               android:id="@+id/button3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/editText3"
+               android:layout_toLeftOf="@+id/editText3"
+               android:background="@drawable/buttonhighlight_input_clear"
+               android:onClick="onClear"
+               android:textColor="@color/custom_red"
+               android:textSize="@dimen/Cancel_Btn_Text" />
+
+           <Button
+               android:id="@+id/button1"
+               android:layout_width="@dimen/Input_btnadd_Wt1"
+               android:layout_height="@dimen/Input_btnadd_Ht1"
+               android:layout_alignLeft="@+id/textView4"
+               android:layout_alignTop="@+id/button3"
+               android:layout_marginTop="18dp"
+               android:background="@drawable/buttonhighlight_input_add"
+               android:minHeight="@dimen/Btn_Ht1"
+               android:onClick="onAdd"
+               android:textColor="@color/custom_red"
+               android:textColorHint="@color/custom_red" />
+
+</RelativeLayout>

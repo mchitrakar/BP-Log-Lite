@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="Input_Text">35dp</dimen>
+    <dimen name="Edit_Text">44dp</dimen>
+	<dimen name="Cancel_Btn_Text">15dp</dimen>
+    <dimen name="Btn_Ht">75dip</dimen>
+    <dimen name="Input_datetime_Wt">90dip</dimen>
+    <dimen name="Input_datetime_marginL">110dip</dimen>
+    <dimen name="Input_datetime_marginT">115dip</dimen>
+	<dimen name="Input_Txt_Wt">90dip</dimen>
+    <dimen name="Input_Txt_Ht">33dp</dimen>
+    <dimen name="Input_systolic_marginT">16dip</dimen>
+    <dimen name="Input_diastolic_marginT">23dp</dimen>
+    <dimen name="Input_heartbeat_marginT">22dp</dimen>
+    <dimen name="Input_btncancel_marginL">80dp</dimen>
+    <dimen name="Input_btncancel_marginT">280dp</dimen>
+    <dimen name="Input_btnadd_Wt">85dp</dimen>
+    <dimen name="Input_btnadd_Ht">85dp</dimen>
+    <dimen name="Input_btnadd_marginL">40dp</dimen>
+    <dimen name="Input_btnadd_marginT">285dp</dimen>
+    <dimen name="Input_btnsave_Wt">73dp</dimen>
+    <dimen name="Input_btnsave_Ht">73dp</dimen>
+    <dimen name="Input_btnsave_marginL">34dp</dimen>
+    <dimen name="Input_btnsave_marginT">103dp</dimen>
+    <dimen name="Input_datetime_Wt1">90dip</dimen>
+     <dimen name="Input_Txt_Ht1">33dp</dimen>
+    <dimen name="Input_datetime_marginL1">110dip</dimen>
+    <dimen name="Input_datetime_marginT1">24dip</dimen>
+    <dimen name="input_date_ht">24dip</dimen>
+	<dimen name="Input_Txt_Wt1">90dip</dimen>
+    <dimen name="Btn_Ht1">75dip</dimen>
+    <dimen name="Input_systolic_marginT1">16dip</dimen>
+    <dimen name="Input_diastolic_marginT1">23dp</dimen>
+    <dimen name="Input_heartbeat_marginT1">22dp</dimen>
+    <dimen name="Input_btncancel_marginL1">80dp</dimen>
+    <dimen name="Input_btncancel_marginT1">280dp</dimen>
+    <dimen name="Input_btnadd_Wt1">85dp</dimen>
+    <dimen name="Input_btnadd_Ht1">85dp</dimen>
+    <dimen name="Input_btnadd_marginL1">40dp</dimen>
+    <dimen name="Input_btnadd_marginT1">285dp</dimen>
+    <dimen name="Input_btnsave_Wt1">73dp</dimen>
+    <dimen name="Input_btnsave_Ht1">73dp</dimen>
+    <dimen name="Input_btnsave_marginL1">34dp</dimen>
+    <dimen name="Input_btnsave_marginT1">103dp</dimen>
+    <dimen name="input_date_Ht1">7sp</dimen> 
+    <dimen name="Main_marginT">7dp</dimen> 
+    <dimen name="Main_del_marginT">16dp</dimen>
+    <dimen name="Main_view_marginT">16dp</dimen> 
+ 
+</resources>
