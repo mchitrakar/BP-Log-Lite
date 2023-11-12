@@ -1,6 +1,7 @@
 # BP Log Lite - Android App
 
-This is the source code of the 2014 android App "BP Log lite". 
+This is the source code of the 2014 android App "BP Log lite". The code was migrated from private Bitbucket repo to github.
+
 The android application aims to help individual to log bloodpressure and heart rate. 
 The icons were derived from http://www.icons4android.com/. 
 
